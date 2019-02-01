@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <entry key="logging.file">/dev/null</entry>
+    <entry key="logging.file.max-size">4GB</entry>
+    <entry key="logging.level.okbem.br31.matcher">DEBUG</entry>
+    <entry key="logging.level.okbem.br31.matcher.util.httplog">DEBUG</entry>
+</properties>
+

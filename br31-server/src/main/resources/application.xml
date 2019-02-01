@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <entry key="spring.profiles.active">local</entry>
+
+    <entry key="server.port">17513</entry>
+
+    <entry key="management.server.port">17514</entry>
+    <entry key="management.endpoints.web.exposure.include">*</entry>
+    <entry key="management.endpoint.health.show-details">always</entry>
+    <entry key="management.info.git.mode">full</entry>
+
+    <entry key="management.apphealth.init-status">UP</entry>
+
+    <entry key="jwt.issuer">br31</entry>
+    <entry key="jwt.secret">secret</entry>
+    <entry key="jwt.expiration">PT24H</entry>
+
+    <entry key="caffeine.spec.user-revision">maximumSize=32768,refreshAfterWrite=10s,expireAfterWrite=1h</entry>
+</properties>
+
